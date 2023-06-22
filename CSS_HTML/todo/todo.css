@@ -1,0 +1,57 @@
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    position: relative; /* Added positioning for relative positioning */
+  }
+  
+  .close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background-color: #2d3029;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .close:hover{
+    background-color: thistle;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  

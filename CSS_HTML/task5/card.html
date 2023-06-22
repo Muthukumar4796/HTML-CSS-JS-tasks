@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card design</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-image: url("./1440210.jpg");
+    }
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; /* Allow cards to wrap on narrow viewports */
+    }
+    .card {
+      width: 500px;
+      height: 500px;
+      margin: 20px;
+      border-radius: 5px;
+      text-align: center;
+      background-image: url("./1898247.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card h1, .card p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <h1>Champion CSK</h1>
+        <p>Chennai, led by M.S. Dhoni, are the second-most successful team in IPL history, having won the title four times in 2010, 2011, 2018 and 2021, and are eyeing their fifth title.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

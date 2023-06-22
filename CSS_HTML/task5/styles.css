@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\Asus\Desktop\Gray Texture  School Season  Learning Supplies Promotions  Psd Layered H5 Background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}

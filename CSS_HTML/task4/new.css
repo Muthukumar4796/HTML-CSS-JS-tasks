@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Brush Script MT", cursive;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px #4caf50;
+  }
+  
+  .button:active {
+    background-color: #388e3c;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 10px #4caf50;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border: 2px solid #4caf50;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .button:active::before {
+    opacity: 1;
+  }
+  

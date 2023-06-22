@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter the text here">
+    <button onclick="addTask()">Enter</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+
+        }
+
+        header{
+            background-color: blueviolet;
+        }
+        header h1{
+            color: white ;
+            padding: 10px;
+            text-align: center;
+        }
+        main{
+            margin: 50px auto;
+            border: 3px violet solid;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        form{
+            margin: 20px;
+
+        }
+        #mytext {
+            padding: 0 10px;
+            margin: right: 10px;
+            height: 30px;
+        }
+        #addBtn{
+            background-color: violet;
+            padding: 5px;
+        }
+        #addbtn:hover{
+            cursor: pointer;
+            background-color: rgb(245, 59, 245) ;
+        }
+        ul{
+            width: 100%;
+            background-color: violet;
+            list-style: none;
+
+        }
+        li{
+            padding: 10px;
+        }  
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>To-Do List</h1>
+    </header> 
+    <main>
+        <form>
+            <input type="text" placeholder="Enter the text here" id="mytext">
+            <span onclick="mylist()" id="addBtn">Add</span>
+        </form>
+        <ul id="myUl">
+            <li>Red</li>
+            <li>Green</li>
+             
+
+
+
+    </main>
+    <script>
+        function mylist(){
+            var li=document.createElement("li");
+            var mytxt = document.getElementById("mytext").value;
+            var t=document.createTextNode(mytxt);
+            li.appendChild(t);
+            if(mytxt==""){
+                alert("Input Field is Empty");
+
+            }else{
+                document.getElementById("muUl").appendChild(li);
+            }
+        }
+
+
+    </script>
+  
+
+
+</body>
+</html>  -->
